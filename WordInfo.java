@@ -1,6 +1,3 @@
-import java.math.RoundingMode;
-import java.text.DecimalFormat;
-
 public class WordInfo {
 
     String word;
@@ -24,10 +21,9 @@ public class WordInfo {
         prWordInSpam = (float)spamCount  / (float)totalSpam;
 
         if(prWordInSpam + prWordInHam > 0) {
-            DecimalFormat df = new DecimalFormat("#.####");
-            df.setRoundingMode(RoundingMode.CEILING);
             probabilityOfSpam = prWordInSpam / (prWordInSpam + prWordInHam);
-            probabilityOfSpam = Double.parseDouble(df.format((probabilityOfSpam)));
+        }else{
+            probabilityOfSpam = 0;
         }
     }
 

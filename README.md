@@ -2,6 +2,8 @@
 
 Darian Tse 100555289
 
+Is considered spam if Spam Probability is above 30%. Watch for the Exponential Numbers, its not over 1. 
+
 # Instructions
 
 1. Download Files (I know, its not in a folder)
@@ -16,7 +18,7 @@ Darian Tse 100555289
 # Code 
 
 1. Main - Handles UI. Event handlers for functions from other classes
-2. Spam Detector - Handles file reading/writing and bayesian spam filtering
+2. Spam Detector - Handles file reading/writing and bayesian spam filtering. 
 3. Test File - Class for table element data
 4. Word Info - Class for storing word related variables (number of times word has appeared in spam/ham files, probability of word being spam) 
 

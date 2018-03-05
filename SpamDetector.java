@@ -70,7 +70,9 @@ public class SpamDetector {
             double summation = 0;
             for(WordInfo word: wordOccurrences){
                 double prob = word.getProbabilityOfSpam();
-                summation += (Math.log((1.0d-prob)) - Math.log(prob));
+                if(prob != 0){
+                    summation += (Math.log((1.0d-prob)) - Math.log(prob));
+                }
             }
             double probOfSpam = 1.0d/(1.0d + Math.pow(Math.E, summation));
 
