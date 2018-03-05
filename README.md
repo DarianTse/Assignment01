@@ -15,7 +15,7 @@ Darian Tse 100555289
 
 # Code 
 
-Main - Handles UI. Event handlers for functions from other classes
-Spam Detector - Handles file reading/writing and bayesian spam filtering
-Test File - Class for table element data
-Word Info - Class for storing word related variables (number of times word has appeared in spam/ham files, probability of word being spam) 
+1. Main - Handles UI. Event handlers for functions from other classes
+2. Spam Detector - Handles file reading/writing and bayesian spam filtering
+3. Test File - Class for table element data
+4. Word Info - Class for storing word related variables (number of times word has appeared in spam/ham files, probability of word being spam) 
