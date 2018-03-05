@@ -19,3 +19,7 @@ Darian Tse 100555289
 2. Spam Detector - Handles file reading/writing and bayesian spam filtering
 3. Test File - Class for table element data
 4. Word Info - Class for storing word related variables (number of times word has appeared in spam/ham files, probability of word being spam) 
+
+# Dont Do This
+
+1. Dont click cancel or exit when choosing directories for the training/testing folders. 
